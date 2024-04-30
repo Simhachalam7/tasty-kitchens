@@ -1,0 +1,141 @@
+.specific-restaurant-food-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-food-list-item {
+    margin-right: 15px;
+    width: 40%;
+    margin-bottom: 35px;
+  }
+}
+.specific-food-item-image {
+  width: 160px;
+  height: 100px;
+  top: 284px;
+  left: 24px;
+  border-radius: 5.02px;
+}
+@media screen and (min-width: 768px) {
+  .specific-food-item-image {
+    width: 255px;
+    height: 150px;
+    top: 552px;
+    left: 165px;
+    border-radius: 8px;
+  }
+}
+.specific-food-right-container {
+  margin-left: 15px;
+}
+
+.specific-restaurant-food-item-name {
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(51, 65, 85, 1);
+  height: 22px;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-food-item-name {
+    font-size: 18px;
+  }
+}
+.specific-restaurant-food-cost {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(51, 65, 85, 1);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .specific-restaurant-food-cost {
+    font-size: 16px;
+  }
+}
+.specific-restaurant-food-rating {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(30, 41, 59, 1);
+  padding-left: 5px;
+}
+
+.specific-restaurant-food-ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+}
+
+.specific-restaurant-food-rating {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(30, 41, 59, 1);
+}
+
+.add-food {
+  width: 44px;
+  height: 24px;
+  top: 357px;
+  left: 200px;
+  padding: 5.79px, 11.59px, 5.79px, 11.59px;
+  border-radius: 5.79px;
+  border: 1px solid rgba(255, 164, 18, 1);
+  gap: 5.79px;
+  color: rgba(255, 164, 18, 1);
+  background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .add-food {
+    margin-top: 8px;
+  }
+}
+.add-item-container {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-fill-mode: backwards;
+}
+
+.items-button {
+  border-radius: 2.25px;
+  border: 0.75px solid #475569;
+  background-color: transparent;
+  padding: 4.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.item-quantity {
+  color: #475569;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0px 13px;
+}
+
+.specific-item-theme {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.specific-add {
+  background-color: transparent;
+}
