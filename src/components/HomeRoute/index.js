@@ -6,6 +6,8 @@ import PopularRestaurants from '../PopularRestaurants'
 import TastyKitchenContext from '../../context/TastyKitchenContext'
 import Footer from '../Footer'
 
+// HomeRoute
+
 const HomeRoute = () => (
   <>
     <TastyKitchenContext.Consumer>
