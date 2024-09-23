@@ -4,6 +4,19 @@ You will demonstrate your skills by creating an app that will fetch data from an
 
 This is an individual assessment. All work must be your own. You will also be given feedback by code reviewers after your project submission.
 
+### Project URL
+
+The project is deployed and can be accessed at the following URL:
+
+[https://tastykitchens7.ccbp.tech](https://tastykitchens7.ccbp.tech)
+
+### Sample login credentials
+
+- **Username**: `rahul`
+- **Password**: `rahul@2021`
+
+Please use these credentials to log in and explore the project.
+
 ### Prerequisites
 
 #### UI Prerequisites
